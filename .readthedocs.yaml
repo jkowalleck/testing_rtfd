@@ -15,6 +15,7 @@ build:
     # rust: "1.64"
     # golang: "1.19"
   commands:
+    - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r prepped $READTHEDOCS_OUTPUT/html/
 
 
